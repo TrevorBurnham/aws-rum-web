@@ -9,7 +9,7 @@ import { BeaconHttpHandler } from './BeaconHttpHandler';
 import { FetchHttpHandler } from './FetchHttpHandler';
 import { PutRumEventsRequest } from './dataplane';
 import { Config } from '../orchestration/Orchestration';
-import { v4 } from 'uuid';
+import { v4 } from '../utils/uuid';
 import { RetryHttpHandler } from './RetryHttpHandler';
 import { InternalLogger } from '../utils/InternalLogger';
 import { CRED_KEY, IDENTITY_KEY } from '../utils/constants';

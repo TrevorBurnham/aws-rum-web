@@ -1,5 +1,5 @@
 import { Session, SessionManager } from '../sessions/SessionManager';
-import { v4 } from 'uuid';
+import { v4 } from '../utils/uuid';
 import { MetaData } from '../events/meta-data';
 import { Config } from '../orchestration/Orchestration';
 import { PageAttributes, PageManager } from '../sessions/PageManager';

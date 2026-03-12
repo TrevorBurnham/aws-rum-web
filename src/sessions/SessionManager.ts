@@ -1,6 +1,6 @@
 import { storeCookie, getCookie } from '../utils/cookies-utils';
 
-import { v4 } from 'uuid';
+import { v4 } from '../utils/uuid';
 import { Config } from '../orchestration/Orchestration';
 import { Page, PageManager } from './PageManager';
 
